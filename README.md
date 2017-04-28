@@ -3,4 +3,4 @@ This is an unofficial image with META installed in `/code/meta` for use with Tex
 
 To run with the course materials, simply download the assignment and run:
 
-`docker run -v $(pwd)/Assignment:/code/Assignment -it /bin/bash`
+`docker run -v $(pwd)/Assignment:/code/Assignment -it travelingsalesman/meta-docker /bin/bash`
